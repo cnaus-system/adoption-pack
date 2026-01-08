@@ -10,3 +10,9 @@
 
 # macOS
 .DS_Store
+
+# Obsidian
+.obsidian/
+
+# macOS
+.DS_Store
