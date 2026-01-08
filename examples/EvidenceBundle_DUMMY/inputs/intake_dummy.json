@@ -1,0 +1,12 @@
+{
+  "organization": "Example Org (Dummy)",
+  "scope": {
+    "tenant": "single",
+    "systems": ["model-repo", "deployment-pipeline"],
+    "environments": ["staging"]
+  },
+  "constraints": {
+    "data_classification": "internal",
+    "redaction": "none"
+  }
+}

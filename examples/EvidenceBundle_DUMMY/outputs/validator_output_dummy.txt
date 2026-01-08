@@ -1,0 +1,4 @@
+DUMMY OUTPUT
+- Validator: example
+- Result: PASS (dummy)
+- Notes: Replace with real outputs during delivery.
