@@ -1,0 +1,59 @@
+{
+  "cnaus_version": "1.0.14",
+  "record_id": "CNAUS-DEMO-EXAMPLECO-20260515",
+  "organisation": "ExampleCo GmbH",
+  "scope": "Employee-facing AI tools",
+  "review_date": "2026-05-15",
+  "bundle_version": "v1",
+  "conformance_result": "PASS_WITH_FINDINGS",
+  "tools": [
+    {
+      "name": "ChatGPT (OpenAI)",
+      "vendor": "OpenAI",
+      "owner": "IT Manager",
+      "data_access": "Internal prompts only",
+      "personal_data": false,
+      "approval_status": "approved",
+      "risk_level": "low",
+      "conformance": "PASS"
+    },
+    {
+      "name": "GitHub Copilot",
+      "vendor": "GitHub (Microsoft)",
+      "owner": "CTO",
+      "data_access": "Source code (internal repos only)",
+      "personal_data": false,
+      "approval_status": "approved",
+      "risk_level": "low",
+      "conformance": "PASS"
+    },
+    {
+      "name": "Notion AI",
+      "vendor": "Notion",
+      "owner": "Ops Lead",
+      "data_access": "Internal documents",
+      "personal_data": false,
+      "approval_status": "approved",
+      "risk_level": "low",
+      "conformance": "PASS"
+    },
+    {
+      "name": "Custom LLM Pipeline",
+      "vendor": "Internal",
+      "owner": "Data Lead",
+      "data_access": "Customer data (PII)",
+      "personal_data": true,
+      "approval_status": "pending",
+      "risk_level": "high",
+      "conformance": "FINDINGS",
+      "findings": [
+        "Risk assessment incomplete",
+        "DPIA not completed",
+        "Vendor DPA does not cover AI processing"
+      ]
+    }
+  ],
+  "evidence_completeness": "8/10",
+  "open_items": 2,
+  "next_review": "2027-05-01"
+}

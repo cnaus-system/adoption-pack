@@ -1,0 +1,5 @@
+Tool Name,Vendor,Purpose,Owner,Department,Data Access,Personal Data,Approval Status,Approval Date,Review Date,Risk Level,Notes
+ChatGPT (OpenAI),OpenAI,Text drafting and research assistance,IT Manager,IT,Internal prompts only,No,Approved,2025-09-01,2026-05-01,Low,Usage policy signed by all users
+GitHub Copilot,GitHub (Microsoft),Code completion and suggestions,CTO,Engineering,Source code (internal repos only),No,Approved,2025-10-15,2026-05-01,Low,Restricted to internal repos; no customer data
+Notion AI,Notion,Document summarisation and drafting,Ops Lead,Operations,Internal documents,No,Approved,2025-11-01,2026-05-01,Low,No external data; internal use only
+Custom LLM Pipeline,Internal (Data Team),Customer query classification,Data Lead,Data,Customer data (PII),Yes,Pending Review,n/a,2026-05-01,High,Risk assessment incomplete; vendor agreement update required
